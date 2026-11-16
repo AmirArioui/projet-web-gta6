@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+header {
+    background-color: #e94584;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #f9a03f;
+}
+
+.grande-image {
+    width: 100%;
+}
+
+#compte {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9a03f;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: #e94584;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carte {
+    width: 220px;
+    background-color: #16213e;
+    padding: 10px;
+}
+
+.carte img {
+    width: 100%;
+}
+
+.bouton-info {
+    background-color: #e94584;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.info {
+    display: none;
+}
+
+.tableau {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #16213e;
+}
+
+caption {
+    padding: 8px;
+    font-style: italic;
+}
+
+th, td {
+    border: 1px solid #44446a;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e94584;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1f2b4d;
+}
+
+tbody tr:hover {
+    background-color: #2c3a66;
+}
+
+a {
+    color: #f9a03f;
+}
+
+footer {
+    background-color: #16213e;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .carte {
+        width: 100%;
+    }
+}
